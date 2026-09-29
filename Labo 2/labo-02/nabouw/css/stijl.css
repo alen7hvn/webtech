@@ -1,0 +1,100 @@
+:root {
+    --color--papier: #fbf7f0;
+    --color--inkt: #2b2b2b;
+    --color--gedempt: #6b6b6b;
+    --color--accent: #b5451b;
+    --color--zebr: #f1e9dc;
+    --font--koppen: Georgia;
+    --font--tekst: Verdana;
+
+}
+
+body {
+    background-color: var(--color--papier);
+    font-family: var(--font--tekst);
+    line-height: 1.6;
+}
+body header h1 {
+
+    color: var(--color--accent);
+    font-family: var(--font--koppen);
+    font-size: 10vh;
+    font-weight: 100;
+}
+.slogan {
+    color: var(--color--gedempt);
+    font-style: italic;
+    font-size: 3vh;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--color--accent);
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+#kaart {
+    font-family: var(--font--koppen);
+    font-weight: normal;
+}
+main article p:nth-child(3) {
+    font-size: 3vh;
+}
+main article h3:first-of-type {
+    color: var(--color--gedempt);
+    font-weight: normal;
+    font-size: 5vh;
+    font-family: var(--font--koppen);
+}
+.prijs {
+    
+    color: var(--color--gedempt);
+    font-style: italic;
+}
+main article .kaart:first-of-type li:nth-child(1) {
+    background-color: var(--color--zebr);
+}
+
+main article .kaart:first-of-type li:nth-child(3) {
+    background-color: var(--color--zebr);
+}
+
+main article .kaart:first-of-type li:nth-child(5) {
+    background-color: var(--color--zebr);
+}
+
+main article h3:last-of-type {
+    color: var(--color--gedempt);
+    font-weight: normal;
+}
+
+main article .kaart:last-of-type li:nth-child(1) {
+    background-color: var(--color--zebr);
+
+}
+
+main article .kaart:last-of-type li:nth-child(3) {
+    background-color: var(--color--zebr);
+    
+}
+#bonen {
+    font-family: var(--font--koppen);
+    font-weight: normal;
+}
+main article p a {
+    color: var(--color--accent);
+}
+#praktisch {
+    font-weight: normal;
+    font-family: var(--font--koppen);
+}
+strong {
+    color: var(--color--accent);
+}
+footer{
+    text-align: center;
+    color: var(--color--gedempt);
+    font-size: 3vh;
+}
+footer p a {
+    color: var(--color--gedempt);
+}
