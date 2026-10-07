@@ -1,6 +1,6 @@
 # Labo 3 - reflecties
 
-Naam: (jouw naam)
+Naam: Alen Hovhannisyan
 
 ## 1. Kleurenstalen
 
