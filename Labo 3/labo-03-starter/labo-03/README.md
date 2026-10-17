@@ -10,11 +10,14 @@ Naam: Alen Hovhannisyan
 ## 2. Slogan
 
 - Welke property centreerde de tekst, en welke de kolom?
+Text-align centreerde de tekst en margin: 0 auto de kolom
 - Waarom werkte de padding op de knop pas na `display: inline-block`?
+    Omdat het geen block element is met height of width daarom moet je het veranderen in een block element.
 
 ## 3. Tabblad
 
 - Wat is de visuele breedte van het tabblad, en waarom is dat exact 15rem en geen 15rem plus padding plus border?
+    de padding zit rond de conten en de border is de rand van de pagina dus die horen er niet bij.
 
 ## 4. Donut
 

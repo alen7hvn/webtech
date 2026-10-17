@@ -6,3 +6,33 @@
 }
 
 /* === your rules === */
+
+main {
+    height: 90vh;
+    background-color: #ec4b03;
+    width: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    border: solid black 8px;
+    
+}
+body main div {
+    background-color: #b99ec1;
+    border-radius: 50%;
+    height: 70%;
+    width: 70%;
+    margin: 15%;
+    border: solid black 8px;
+    overflow: hidden;
+    
+}
+body main div h1 {
+    background-color: #f9b700;
+    height: 90%;
+    width: 90%;
+    margin: -7% 0 0 -7%;
+    padding-top: 40%;
+    text-align: center;
+   
+}
