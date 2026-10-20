@@ -6,3 +6,43 @@
 }
 
 /* === your rules === */
+
+body {
+    background-color: white;
+}
+.lijst {
+    height: 80vh;
+    margin: 10vh auto;
+    width: 80vh;
+    background-color: green;
+}
+.lijst img {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+.vlakje {
+    width: 6rem;
+    height: 6rem;
+}
+
+.lijst {
+    position: relative;
+}
+.roze {
+    background-color: pink;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.groen {
+    background-color: green;
+}
+.rood {
+    background-color: red;
+}
+.lime {
+    background-color: lime;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
