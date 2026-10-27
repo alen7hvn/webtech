@@ -2,9 +2,91 @@
 
 /* === tokens === */
 :root {
+  --titel: #1f2933;
+  --grafiek: #2c6e8f;
+  --omzet: #c8742e;
+  --bezoekers: #3b7a2a;
+  --agenda: #6b4fa3;
+  --taken: #b2323a;
+  --weer: #e0b43a;
 
 }
 
 /* === base: narrow screens first === */
 
+
+.titel {
+    background-color: black;
+}
+.grafiek {
+    background-color: var(--grafiek);
+}
+.omzet {
+    background-color: var(--omzet);
+}
+.bezoekers {
+    background-color: var(--bezoekers);
+}
+.agenda {
+    background-color: var(--agenda);
+}
+.taken {
+    background-color: var(--taken);
+}
+.weer {
+    background-color: var(--weer);
+    color: black;
+}
+body {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    
+}
+.dashboard {
+    height: 100vh;
+    padding: 1rem;
+    gap: 1rem;
+    display: grid;
+}
+.titel {
+    font-size: 1.5rem;
+
+}
+.tegel {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
 /* === media queries: below the base rules === */
+
+@media (min-width: 800px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .titel,
+    .grafiek,
+    .weer {
+        grid-column: 1/3;
+    }
+}
+@media (min-width: 1200px) {
+    main {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .titel,
+    .weer {
+        grid-column: 1/5;
+    }
+    .grafiek {
+        grid-column: 1/3;
+        grid-row: 2/4;
+    }
+    .bezoekers {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .agenda {
+        
+    }
+}
