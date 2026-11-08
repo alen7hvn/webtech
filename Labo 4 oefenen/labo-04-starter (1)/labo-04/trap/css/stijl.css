@@ -6,3 +6,41 @@
 }
 
 /* === your rules === */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.trap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+.trede {
+    color: white;
+    text-align: center;
+    font-size: 7vh;
+    padding-top: 8vh;
+    font-weight: bold;
+
+}
+.trede:nth-child(1) {
+    background-color: blue;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.trede:nth-child(2) {
+    background-color: darkmagenta;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.trede:nth-child(3) {
+    background-color: orange;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.trede:nth-child(4) {
+    background-color: beige;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}

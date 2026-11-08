@@ -6,3 +6,99 @@
 }
 
 /* === your rules === */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-rows: 0.25fr auto 0.25fr;
+    min-height: 100vh;
+    background-color: beige;
+}
+header {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+    padding: 0 2vh;
+    font-size: 2vh;
+}
+.logo {
+    color: orange;
+    text-decoration: none;
+
+}
+.actief {
+    color: orange;
+}
+header > nav > ul {
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+}
+header > nav > ul li a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    width: 70vw;
+    margin: 0 auto;
+}
+.kaarten {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    gap: 2vh;
+    line-height: 4vh;
+    
+}
+
+.kaarten li {
+    background-color: white;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+
+}
+main h1 {
+    font-size: 5vh;
+}
+.intro {
+    font-size: 2vh;
+    color: gray;
+}
+.kaarten li .soort {
+    font-size: 2vh;
+    color: gray;
+}
+.kaarten li h2 {
+    font-size: 3vh;
+}
+.kaarten li .beschrijving {
+    font-size: 2vh;
+    flex: 1;
+}
+.kaarten li .knop {
+    color: white;
+    background-color: darkslategrey;
+    text-decoration: none;
+    font-size: 1.5vh;
+    padding: 1vh;
+    border-radius: 2px;
+}
+.kaart:nth-child(1) {
+    grid-column: 1/3;
+}
+.kaart {
+    align-items: flex-start;
+}
+footer {
+    background-color: darkslategray;
+    text-align: center;
+    color: white;
+    font-size: 1vh;
+    padding: 2vh;
+    
+
+}

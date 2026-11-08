@@ -6,3 +6,39 @@
 }
 
 /* === your rules === */
+
+
+main {
+    background-color: darkblue;
+    height: 70vh;
+    width: 70vh;
+    margin: 15vh auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2vh;
+    padding: 2vh;
+}
+.lila {
+    background-color: gray;
+    grid-column: 1/3;
+
+}
+.bruin {
+    background-color: brown;
+}
+.geel {
+    background-color: yellow;
+}
+.marine {
+    background-color: mediumaquamarine;
+    grid-column: 3/4;
+}
+.olijf {
+    background-color: olive;
+    grid-column: 1/3;
+}
+.rood {
+    background-color: red;
+    grid-column: 3/4;
+}

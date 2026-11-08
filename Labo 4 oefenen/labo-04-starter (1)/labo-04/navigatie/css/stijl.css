@@ -6,3 +6,31 @@
 }
 
 /* === your rules === */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+    margin: 1vh 0.5vh;
+    
+}
+.logo {
+    color: orange;
+    text-decoration: none;
+    padding-left: 2vw;
+
+}
+li {
+    display: inline-block;
+    margin-right: 2vw;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.actief {
+    background-color: orange;
+    padding: 2vh 2vw;
+    border-radius: 20%;
+}
