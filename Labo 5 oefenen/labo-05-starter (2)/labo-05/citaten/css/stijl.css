@@ -6,3 +6,47 @@
 }
 
 /* === your rules === */
+body {
+    padding: 4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.citaten {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 5vw;
+}
+blockquote {
+    width: 40vw;
+    flex: 1 1 18rem;
+    border-left: 10px solid;
+}
+blockquote p {
+    font-weight: bold;
+}
+
+.blauw {
+    color: blue;
+}
+.roze {
+    color: pink;
+}
+.rood {
+    color: red;
+}
+.oranje {
+    color: orange;
+}
+.groen {
+    color: green;
+}
+.salie {
+    color: lightgreen;
+}
+.paars {
+    color: purple;
+}
+.grijs {
+    color: gray;
+}
