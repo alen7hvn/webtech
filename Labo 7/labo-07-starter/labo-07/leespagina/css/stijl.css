@@ -1,12 +1,79 @@
 /* stijl.css - labo 7, leespagina (reset.css is linked before this file) */
 
 /* === fonts: one @font-face per file in fonts/ (7.2) === */
-
+@font-face {
+    font-family: "Fraunces";
+    src: url("../fonts/fraunces-latin-wght-normal.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url("../fonts/fraunces-latin-wght-italic.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("../fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("../fonts/atkinson-hyperlegible-latin-400-italic.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url("../fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
 /* === tokens: type scale, spacing scale, colour roles (7.4, 7.5, 7.7) === */
 :root {
+    --font-heading: "Fraunces", Georgia, serif;
+  --font-body: "Atkinson Hyperlegible", Verdana, sans-serif;
+
+  /* type scale, ratio 1.25 */
+  --text-s: 0.8rem;
+  --text-m: 1rem;
+  --text-l: 1.25rem;
+  --text-xl: 1.563rem;
+  --text-xxl: 1.953rem;
+  --text-xxxl: 2.441rem;
+
+  /* spacing scale, doubling */
+  --space-xs: 0.25rem;
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 4rem;
+
+  /* colour roles */
+  --color-surface: hsl(40 30% 97%);
+  --color-ink: hsl(230 25% 15%);
+  --color-muted: hsl(230 10% 42%);
+  --color-accent: hsl(15 70% 42%);
+  --color-line: hsl(230 15% 85%);
 
 }
 
 /* === base === */
+article {
+    width: 65ch;
+    margin: 0 auto;
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+
+}
 
 /* === the article === */

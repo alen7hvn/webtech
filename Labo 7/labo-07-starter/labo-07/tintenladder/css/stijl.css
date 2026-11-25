@@ -2,9 +2,78 @@
 
 /* === tokens === */
 :root {
+    --papier-1: hsl(40 30% 97%);
+    --inkt: hsl(210 25% 12%);
+    --gedempt: hsl(210 10% 42%);
+    --hue: 210;
+
 
 }
 
 /* === base === */
-
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100svh;
+}
+.ladder {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+header {
+    background-color: var(--papier-1);
+    color: var(--inkt);
+    padding: 3vh;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    line-height: 7vh;
+}
+p {
+    color: var(--gedempt);
+    font-size: 2.5vh;
+}
 /* === the ten steps: one rule per step === */
+
+.trede:nth-child(1) {
+    background-color: hsl(var(--hue), 55%, 95%);
+}
+.trede:nth-child(2) {
+    background-color: hsl(var(--hue), 55%, 85%);
+}
+.trede:nth-child(3) {
+    background-color: hsl(var(--hue), 55%, 75%);
+}
+.trede:nth-child(4) {
+    background-color: hsl(var(--hue), 55%, 65%);
+}
+.trede:nth-child(5) {
+    background-color: hsl(var(--hue), 55%, 55%);
+}
+.trede:nth-child(6) {
+    background-color: hsl(var(--hue), 55%, 45%);
+}
+.trede:nth-child(7) {
+    background-color: hsl(var(--hue), 55%, 35%);
+}
+.trede:nth-child(8) {
+    background-color: hsl(var(--hue), 55%, 25%);
+}
+.trede:nth-child(9) {
+    background-color: hsl(var(--hue), 55%, 15%);
+}
+.trede:nth-child(10) {
+    background-color: hsl(var(--hue), 55%, 5%);
+}
+.trede {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vh;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    
+}
+.trede:nth-child(6), :nth-child(7), :nth-child(8), :nth-child(9), :nth-child(10) {
+    color: var(--papier-1);
+}
